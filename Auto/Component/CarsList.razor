@@ -14,7 +14,8 @@
             <div class="card-img" style="background-image: url('@car.Img');">
             </div>
             <div class="card-body">
-                <h5 class="card-title">@car.Year </h5>
+                <h5 class="card-title">@car.Year @car.Brand @car.Model </h5>
+                <h5 class="card-Price">@car.Price "$" </h5>
             </div>
             <div class="card-footer">
                 <small class="text-muted">
@@ -27,6 +28,10 @@
         </div>
     }
 </div>
+
+
+
+
 
 
 <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productTitle" aria-hidden="true">
@@ -42,7 +47,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="card">
-                        <div class="card-img" style="background-image: url('@selectedcar.Img');">
+                        <div class="card-img" style="background-image: url('@selectedcar.Img');max-width: 200px; max-height: 300px;">
                         </div>
                         <div class="card-body">
                             <p class="card-text">@selectedcar.Price</p>

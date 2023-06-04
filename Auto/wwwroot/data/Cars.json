@@ -1,14 +1,36 @@
 [
   {
-    "Id": "1",
+    "Id": 1,
     "Model": "sq5",
     "Brand": "audi",
-    "Year": "2018",
-    "Price": "52000",
+    "Year": 2018,
+    "Price": 52000,
     "Color": "dark blue",
-    "Img": "https://www.benzelbusch.com/sites/benzelbusch/files/vehicles/2bfe0846902146caa2eaa323aee56255.jpg",
-    "Ratings": null
-    "Images":  null
+    "Img": "C:/Users/Angelina/Documents/Audi/UUWXE7258.JPG",
+    "Ratings": null,
+    "Images": null
+  },
+  {
+    "Id": 2,
+    "Model": "sq5",
+    "Brand": "audi",
+    "Year": 2018,
+    "Price": 52000,
+    "Color": "dark blue",
+    "Img": "C:/Users/Angelina/Documents/Audi/UUWXE7258.JPG",
+    "Ratings": null,
+    "Images": null
+  },
+    
+  {
+    "Id": 3,
+    "Model": "sq5",
+    "Brand": "audi",
+    "Year": 2018,
+    "Price": 52000,
+    "Color": "dark blue",
+    "Img": "C:/Users/Angelina/Documents/Audi/UUWXE7258.JPG",
+    "Ratings": null,
+    "Images": null
   }
-
 ]
